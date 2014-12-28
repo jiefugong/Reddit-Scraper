@@ -60,7 +60,7 @@ def requestWithParam(subreddit, param, searchFor, numResults, threshold):
 		# Otherwise it would look like I'm DDOS'ing Reddit.
 		time.sleep(3)
 
-	writeResults(results)
+	# writeResults(results)
 
 	return results
 
